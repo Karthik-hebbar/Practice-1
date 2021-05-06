@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+#container{
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+}
+
+#container #left{
+    width: 50%;
+    position: relative;
+}
+
+#left header{
+    display: flex;
+    justify-content: flex-start;
+    padding: 17px 24px 24px 35px;
+}
+
+#left #content{
+   
+    width: 70%;
+    margin: auto;
+    margin-top: 19%;
+}
+
+#left #content h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 5.5em;
+    letter-spacing: 1px;
+}
+
+#left #content #buttons{
+  padding-top: 10%;
+
+}
+
+#left #content #buttons button
+{
+    padding: 24px 66px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 34px;
+    font-weight: 700;
+    font-size: 0.7em;
+    cursor: pointer;
+    transition: all 0.4s;
+
+}
+#left #content #buttons button:hover{
+    color: white;
+    background-color: black;
+}
+
+#left #content #buttons a{
+    text-decoration: none;
+    color: rgb(104, 104, 104);
+    font-size: 0.7em;
+    font-weight: 700;
+    padding-left: 37px;
+    transition: all 0.4s;
+    
+}
+#left #content #buttons a:hover{
+    color: black;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+footer ul{
+    list-style: none;
+    padding-right: 45px;
+    padding-bottom: 20px;
+}
+footer ul li{
+    display: inline-block;
+    padding: 0px 76px 10px 0px;
+    font-size: 0.7em;
+    font-weight: 700;
+    
+}
+footer ul li:first-child
+{
+    color: rgb(104, 104, 104);
+}
+footer ul li:last-child
+{
+    border-bottom: 2px solid black; 
+}
+
+
+
+
+#container #right{
+    width:50%;
+    border:2px solid black;
+}
